@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 #import matplotlib.pylot as plt
 
+# To add a directory to your path for this session only
+# import sys; sys.path.append('path_to_directory')
+
 # Basic loop syntax
 print('Basic loop syntax')
 primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
