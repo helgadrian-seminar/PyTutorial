@@ -52,5 +52,18 @@ for x in range(0,10):
 else:
 	print('x was divisible by 5')
 
+# ***** Classes and Objects *****
+class MyClass:
+	variable = 'MyVariable'
+	def function(self):
+		print('This is a test function')
+
+myobject1 = MyClass()
+myobject2 = MyClass()
+
+myobject1.variable = 'AnotherVariable'
+
+print(myobject1.variable)
+print(myobject2.variable)
 
 
